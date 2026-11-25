@@ -1,0 +1,13 @@
+[project]
+name = "helsinki-ice-watch"
+version = "1.0.0"
+description = "Snow cover and sea ice around Helsinki from Copernicus Sentinel-2 satellite images"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
